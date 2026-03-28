@@ -1,0 +1,79 @@
+/* -------- Global -------- */
+body {
+    background-color: #f1f3f6;
+    font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+/* -------- Main Container -------- */
+.container {
+    margin-top: 40px;
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+/* -------- Headings -------- */
+h1, h2, h3 {
+    color: #0d6efd;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* -------- Tables -------- */
+table {
+    margin-top: 25px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th {
+    background-color: #0d6efd !important;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+table td {
+    vertical-align: middle;
+}
+
+/* Hover effect for rows */
+.table-hover tbody tr:hover {
+    background-color: #f0f6ff;
+}
+
+/* -------- Buttons -------- */
+button,
+.btn {
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* -------- Links -------- */
+a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* -------- Forms -------- */
+input,
+select,
+textarea {
+    border-radius: 6px !important;
+}
+
+/* -------- Charts -------- */
+.chart-container {
+    width: 500px;
+    height: 300px;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
